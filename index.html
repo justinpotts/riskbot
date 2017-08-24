@@ -1,0 +1,162 @@
+<html>
+<head>
+  <title>RiskBot</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato|Merriweather:300,400,700" rel="stylesheet">
+</head>
+<body>
+  <style>
+    h1 {
+      font-family: 'Merriweather', serif;
+    }
+    h2 {
+      font-family: 'Lato', sans-serif;
+    }
+    .subheader {
+      font-size: 22px;
+      color:#494949;
+      line-height:1.75;
+    }
+    .vertical-center {
+      min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+      min-height: 100vh; /* These two lines are counted as one :-)       */
+
+      display: flex;
+      align-items: center;
+    }
+    .btn-grey {
+      background-color: #6A7683;
+      color:white;
+      font-size:14px;
+      padding-top:20px;
+      padding-bottom:15px;
+      padding-left:30px;
+      padding-right:30px;
+      border-radius: 6px;
+      margin-top:20px;
+    }
+    .btn-grey:hover {
+      background-color: #445263;
+      color:white;
+    }
+    .btn-text {
+      font-size:12px;
+      font-weight:600;
+    }
+    .container-grey {
+      background-color: #FBFBFB;
+    }
+    .sub-serif {
+      font-size:18px;
+      font-weight:400;
+    }
+    .li-header {
+      font-size:24px;
+      font-weight:400;
+      margin-bottom:20px;
+    }
+    .feature-list {
+      list-style: none;
+      padding-left: 0px;
+    }
+    .list-item {
+      font-family: 'Merriweather', serif;
+      font-size:18px;
+      color:#B5B5B5;
+      font-weight:300;
+      margin-top:10px;
+      margin-bottom:10px;
+    }
+    .bg-white {
+      background-color: white;
+    }
+    .navbar {
+      border-bottom: 1px solid #DEDEDE;
+    }
+  </style>
+
+  <nav class="navbar navbar-toggleable-md navbar-light fixed-top bg-white">
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand" href="#"><img src="logo.png" height=30></div>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="mailto:justinpotts@ou.edu">Request a demo</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row vertical-center">
+      <div class="col-md-4">
+        <img src="iphone-header.png" width=275px;>
+      </div>
+      <div class="col-md-8">
+        <h1 style="margin-bottom:25px;">Risk sucks, let us do it for you.</h1>
+        <h2 class="subheader" style="margin-top:25px;">When the alcohol compliance team calls, we'll help you automated the process. By providing you with a set of phone numbers, we can have our bot answer the phone, ask them a few questions, put them on hold, and notify your chapter there's about to be a check.</h2>
+        <a href="mailto:justinpotts@ou.edu" class="btn btn-large btn-grey"><h2 class="btn-text">REQUEST A DEMO</h2></a>
+      </div>
+    </div>
+  </div>
+  <div class="container container-grey" style="width:100%; padding-top:75px; padding-bottom:75px;">
+    <center>
+      <h1 class="sub-serif">"Because of this, I have more time to shuck my corn, and Saturdays can <i>truly</i> be for the boys."</h1>
+      <br>
+      <h2 class="sub-serif">- William Lounsbury, President of Pi Kappa Phi</h1>
+    </center>
+  </div>
+  <div class="container" id="pricing" style="padding-top:75px; padding-bottom:75px;">
+    <div class="row">
+      <div class="col">
+        <h1 class="li-header">Standard - $150</h1>
+        <ul class="feature-list">
+          <li class="list-item">One phone number</li>
+          <li class="list-item">Answering machine</li>
+          <li class="list-item">Custom hold music</li>
+          <li class="list-item">One GroupMe message</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1 class="li-header">Pro - $300</h1>
+        <ul class="feature-list">
+          <li class="list-item">Three phone numbers</li>
+          <li class="list-item">Answering machine</li>
+          <li class="list-item">Custom hold music</li>
+          <li class="list-item">Dial options</li>
+          <li class="list-item">Five text messages per call</li>
+          <li class="list-item">Two GroupMe messages per call</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h1 class="li-header">Premium - $500</h1>
+        <ul class="feature-list">
+          <li class="list-item">Five phone numbers</li>
+          <li class="list-item">Answering machine</li>
+          <li class="list-item">Custom hold music</li>
+          <li class="list-item">Voice options</li>
+          <li class="list-item">Ten text messages per call</li>
+          <li class="list-item">Three GroupMe messages per call</li>
+        </ul>
+      </div>
+    </div>
+    <center>
+      <a href="mailto:justinpotts@ou.edu" class="btn btn-large btn-grey" style="margin-top:50px;"><h2 class="btn-text">GET STARTED</h2></a>
+    </center>
+  </div>
+  <div class="container container-grey" style="width:100%; padding-top:75px; padding-bottom:75px;">
+    <center>
+      <h1 class="sub-serif">RiskBot was designed and developed by <a href="https://twitter.com/PottsJustin">Justin Potts</a>, member and historian of the Pi Kappa Phi Alpha Gamma chapter.</h1>
+    </center>
+  </div>
+</body>
+</html>
